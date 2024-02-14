@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Get and Post method</title>
+</head>
+<body>
+    <h2>FeedBack Form</h2>
+    <p>Please fill out this to help us improve our Channel.</p>
+    <form action="https://github.com/janbuca/HTML5-Practice" method="post">
+        <input type="hidden" name="recipient" value="ethioprogramming">
+        <input type="hidden" name="subject" value="Feedback Form">
+        <input type="hidden" name="redirect" value="main.html">
+        <p>
+            <label for="">Name:
+                <input type="text" name="fname" size="25">
+            </label>
+        </p>
+        <p>
+            <label for="">Comments: <br>
+                <textarea name="comment" id="" cols="35" rows="4">Enter Comment here</textarea>
+            </label>
+        </p>
+        <p>
+            <label for="">E-mail Address: 
+                <input type="email" name="email" size="25">
+            </label>
+        </p>
+        <p>
+            <Strong>Things you Liked:</Strong><br>
+            <label for="">The Presenter
+                <input type="checkbox" name="things" value="Presentation">
+            </label>
+            <label for="">The Content of the Tutorial
+                <input type="checkbox" name="things" value="Content">
+            </label>
+            <label for="">The Coverage of the topic
+                <input type="checkbox" name="things" id="" value="Coverage">
+            </label>
+            <label for="">Field Area 
+                <input type="checkbox" name="things" id="" value="Field">
+            </label>
+            <label for="">Source Code 
+                <input type="checkbox" name="things" value="Code">
+            </label>
+        </p>
+    </form>
+</body>
+</html>
