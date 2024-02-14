@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div and Hr</title>
+</head>
+<body>
+    <h2>New HTML5 Section Element</h2>
+    <div>Hello</div>
+    <div>Janbuca</div>
+    <div>Followers</div><hr>
+    <p>This from janbuca, please  follow me!</p>
+    
+    <!-- hr is used to create a horizontal line -->
+    <h3>Horizontal Line with HR</h3>
+    <hr>
+    <p>The above line is created by using the hr tag.</p>
+
+    <!-- div is used to group elements together -->
+    <h3>Grouping Divs Using Div Tag</h3>
+    <div>I am in Group A</div>
+    <div>I am also in Group A</div>
+    <hr>
+    <div>I am in Group B</div>
+
+    <!-- The id attribute specifies a unique id for an element -->
+    <h3>Using Id Attribute of Div Tag</h3>
+    <div id="groupA">I am in Group A</div>
+    <div id="groupB">I am in Group B</div>
+    <script>
+        // Get the divs using their ids
+        var groupA = document.getElementById("groupA");
+        var groupB = document.getElementById("groupB");
+        
+        // Add some text to each div
+        groupA.innerHTML += " And I am added to Group A";
+        groupB.innerHTML += " And I am added to Group B";
+    </script>
+</body>
+</html>
