@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio display</title>
+</head>
+<body>
+    <h2>This is Audio Playing</h2>
+    <audio src="./image//CR7.m4a" controls></audio><br/>
+    
+    <form action="/play_music" method="post">
+        @csrf
+        音声ファイルのパス：<input type="text" name="filepath"><br />
+        <input type="submit" value="Play">
+    </form> 
+</body>
+</html>
