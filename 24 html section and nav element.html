@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Html Section and Nav Element</title>
+</head>
+<body>
+    <h2>Html Section and Nav Element</h2>
+    <header>
+        <img src="./image/10.jpg" width="400" height="400" alt="Image Description"/>
+    </header>
+    
+    <!-- Using nav element -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav> 
+
+    <!-- Using section element -->
+    <section id="home">
+        <h3>Welcome to our Home Page!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+    </section>
+
+    <section id="about">
+        <h3>About Us</h3>
+        <div>
+            <h4>Our Story</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.</p>
+            
+            <h4>Our Team</h4>
+            <ul>
+                <li>John Doe - CEO</li>
+                <li>Jane Smith - CTO</li>
+                <li>Tom Brown - Developer</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <form action="/submit_form" method="post">
+            Name: <input type="text" name="name"><br>
+            Email: <input type="email" name="email"><br>
+            Message:<br>
+            <textarea name="message" rows="8" cols="40"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <!-- Accessing the content of a specific section using JavaScript -->
+    <script>
+        // Getting the text from the "Welcome to our Home Page!" paragraph in the home section
+        let welcomeText = document.querySelector("#home p").innerHTML;
+        
+        console.log(welcomeText);
+    </script>
+</body>
+</html>
+
+ 
