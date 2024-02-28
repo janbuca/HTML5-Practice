@@ -1,0 +1,23 @@
+Web Basics
+    In its simplest form, a web page is nothing more than an HTML (HyperText Markup Language) document (with the extension .
+    html or .htm) that describes to a web browser the document’s content and structure.
+    Hyperlinks HTML documents normally contain hyperlinks, which, when clicked, load a specified web document.
+
+HTML 5
+    HTML(HyperText Markup Language)—a special type of computer language called a markup language designed to specify the content and structure of web pages (also called documents) in a portable manner.
+    HTML5, now under development, is the emerging version of HTML.
+    HTML enables you to create content that will render appropriately across the extraordinary range of devices connected to the Internet.
+    • smartphones, tablet computers, notebook computers, desktop computers, special-purpose devices such as large-screen displays at concert arenas and sports stadiums, and more.
+    Validating Your HTML5, CSS3 and JavaScript Code
+
+HTML5 can be validated using:
+    http://validator.w3.org/
+    http://html5.validator.nu/
+
+CSS3 can be validated using:
+    http://jigsaw.w3.org/css-validator/
+
+JavaScript can be validated using:
+    http://www.javascriptlint.com/
+    http://www.jslint.com/
+
